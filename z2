@@ -1,0 +1,15 @@
+#include <windows.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+	SetConsoleOutputCP(1251);
+int a ,b;
+cout <<"Ââåäèòå äâà ÷èñëà \n";
+cin >> a >> b;
+if (a>b)
+cout << a <<" - íàèáîëüøåå \n";
+else cout << b <<" - íàèáîëüøåå \n";
+	return 0;
+	system("pause");
+}
