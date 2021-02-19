@@ -1,0 +1,23 @@
+#include <windows.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+	SetConsoleOutputCP(1251);
+	double x,y;
+	cout <<"Ââåäèòå êîîðäèíàòó x >"<<'\n';
+	cin >>x;
+	cout <<"Ââåäèòå êîîðäèíàòó y>"<<'\n';
+	cin >>y; 
+ if ((x>0) && (y>0)) cout << "Òî÷êà ïîïàäàåò â I ÷åòâåðòü";
+else
+ if ((x<0) && (y>0)) cout << "Òî÷êà ïîïàäàåò âî II ÷åòâåðòü";
+else 
+ if ((x<0) && (y<0)) cout << "Òî÷êà ïîïàäàåò â III ÷åòâåðòü";
+else
+ if ((x>0) && (y<0)) cout << "Òî÷êà ïîïàäàåò â IV ÷åòâåðòü";
+else 
+ cout << "Òî÷êà íå ëåæèò íà îñè";
+	return 0;
+	system("pause");
+}
