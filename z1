@@ -1,0 +1,18 @@
+#include <windows.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+	SetConsoleOutputCP(1251);
+	int a,b,c;
+	cout << "Ââåäèòå ÷èñëà a,b,c: \n";
+	cin >> a >> b >> c;
+
+	if (a==b)
+	if (b==c)
+	cout << "a, b, c ðàâíû \n";
+	else
+	cout << "a, b, c íå ðàâíû \n";
+	return 0;
+	system("pause");
+}
